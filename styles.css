@@ -1,0 +1,48 @@
+label{
+    display: block;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .container{
+    height: 97vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #mainForm{
+    width: 22%;
+    text-align: center;
+    padding: 30px;
+    height: 350px;
+    border-radius: 25px;
+    background: linear-gradient(rgba(209, 160, 25,0.5),rgba(255, 224, 138,0.5));
+  }
+  
+  body{
+    background: url('https://thumbs.dreamstime.com/b/amazing-misty-autumn-scenery-lake-sorapis-dolomites-italy-beautiful-mountains-colorful-yellow-larches-shore-193683774.jpg') no-repeat;
+    background-size: cover;
+  }
+  
+  
+  input{
+    padding: 10px;
+    border-radius: 25px;
+    background: linear-gradient(cyan,lightyellow);
+    border: none;
+  }
+  
+  input[type = 'submit']{
+    background: red
+  }
+  
+  input[type = 'submit']:hover{
+    background: black;
+    color: white;
+  }
+  
+      input:focus {
+          outline:none;
+      }
